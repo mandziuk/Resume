@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
+    padding: 40px;
+}
+
+.main-block {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    height: 1319px;
+
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/*Лівий блок*/
+
+/*Загальні стилі лівого блоку*/
+
+.left-block {
+    width: 370px;
+    background-color: #1E2939;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.left-block div {
+    margin-left: 30px;   
+}
+
+.resume-img {
+    width: 370px;
+    height: 354px;
+    padding-top: 40px;
+}
+
+.left-block h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    padding-bottom: 8px;
+}
+
+/*Contaacts*/
+
+.contacts {
+    margin-top: 51px;
+    margin-bottom: 47px;
+}
+
+.contact-info {
+    list-style-type: none;
+}
+
+.contact-info li:first-child::before {
+    content: "C:";
+    color: #fff;
+    padding: 7px;
+    
+}
+
+.contact-info li:last-child::before {
+    content: "E:";
+    color: #fff;
+    padding: 7px;
+}
+
+.contact-info span {
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+/*Tech Skills*/
+
+.skill-list li {
+    font-size: 14px;
+    text-align: left;
+    list-style-type: none;
+    opacity: 0.8;
+}
+
+.skill-list li:before {
+    content: "•";
+    color: #FB6D3A;
+    padding-right: 7px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/*Soft Skills*/
+
+.soft-skills {
+    margin-top: 44px;
+}
+
+/*Праивий блок*/
+
+/*Загальні стилі правого блоку*/
+
+.right-block {
+    margin-left: 88px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.right-block h2 {
+    font-size: 45px;
+}
+
+.right-block h4 {
+    font-size: 16px;
+}
+
+.right-block h3 {
+    font-size: 22px;
+    padding-bottom: 12px;
+}
+
+/*User Info*/
+
+.user-info {
+    margin-bottom: 40px;
+}
+
+.user-info h4 {
+    font-size: 14px;
+    padding-top: 102px;
+}
+
+.user-info h4:first-child {
+    padding-bottom: 19px;
+}
+
+.user-info p {
+    color: #595959;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 24px;
+}
+
+/*Project*/
+
+.projects {
+    margin-bottom: 40px;
+}
+
+.projects-list {
+    padding-left: 18px; 
+    font-weight: bold;
+}
+
+.projects-list span {
+    font-weight: 400;
+    color: #595959;
+    padding-left: 13px;
+}
+
+/*Work Expirience*/
+
+.work-expirience {
+
+}
+
+.experience-list {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.vacantion span {
+    color: #FB6D3A;
+
+}
+
+.vacantion p {
+    margin-top: 11px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    color: #A8A8A8;
+}
+
+.vacantion-2,
+.vacantion-3 {
+    margin-top: 20px;
+}
+
+/*Education*/
+
+.education {
+    margin-top: 43px;
+}
+
+.education h4 {
+    font-size: 14px;
+    
+}
+
+.education .universitet {
+    color: #FB6D3A;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+}
+
+.education p {
+    font-size: 12px;
+    color: #A8A8A8;
+    padding-top: 12px;
+}
+
